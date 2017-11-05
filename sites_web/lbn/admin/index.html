@@ -1,0 +1,85 @@
+<html>
+ <head>
+  <title>Page d'admin</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+ </head>
+ <body>
+  <img src="admin_logo.png" alt="logo linkbynet/apache httpd server" />
+  <hr />
+  <div>
+   <table>
+    <tr>
+    <th>Outils</th>
+    <th>Comment</th>
+    </tr>
+    <tr>
+     <td><a href='server-status'>Server Status</a></td>
+     <td>Apache Server Extended Status</td>
+    </tr>
+    <tr>
+     <td><a href='server-info'>Server Info</a></td>
+     <td>Apache Server Info</td>
+    </tr>
+    <tr>
+     <td><a href='balancer-manager'>Balancer Manager</a></td>
+     <td>Apache Proxy Balancer Manager</td>
+    </tr>
+    <tr>
+     <td><a href='ldap-status'>Ldap Status</a></td>
+     <td>Ldap Status</td>
+    </tr>
+    <td><a href='./monitoring/apc.php'>APC Status</a></td>
+    <td>APC Status</td>
+    </tr>
+    <tr>
+    <td><a href='./monitoring/apc-info.php'>APC Info</a></td>
+    <td>APC Info</td>
+    </tr>
+    <tr>
+    <td><a href='./monitoring/phpinfo.php'>PHP Info</a></td>
+    <td>PHP Info</td>
+    </tr>
+    <tr>
+    <td><a href='./monitoring/ocp.php'>OCP Info</a></td>
+    <td>OCP Info</td>
+    </tr>
+    <tr>
+    <td><a href='./monitoring/memcache.php'>Memcache Info</a></td>
+    <td>Memcache Status</td>
+    </tr>
+    <!-- %ITEM_OUTIL% //-->
+   </table>
+  </div>
+  <div>
+   <table>
+    <tr>
+     <th>monitoring</th>
+     <th>link</th>
+     <th>comment</th>
+    </tr>
+    <tr>
+    <td>Test Apache</td>
+    <td><a href='monitoring/test_apache.html'>/test_apache.html</a></td>
+     <td>Ce test n'est pas tres utile si vous visualisez cette page.</td>
+    </tr>
+    <tr>
+    <td>Test PHP</td>
+    <td><a href='monitoring/test_php.php'>/test_php.php</a></td>
+     <td>Permet de tester le fonctionnement de PHP.</td>
+    </tr>
+    <tr>
+    <td>Test MySQL</td>
+    <td><a href='monitoring/test_mysql.php'>/test_mysql.php</a></td>
+     <td>Permet de tester le fonctionnement du MySQL.</td>
+    </tr>
+    <tr>
+    <td>Test PostgreSQL</td>
+    <td><a href='monitoring/test_postgres.php'>/test_postgres.php</a></td>
+     <td>Permet de tester le fonctionnement du PostgreSQL.</td>
+    </tr>
+    <!-- %ITEM_MONITORING% //-->
+   </table>
+    <!-- %ITEM_OTHER% //-->
+  </div>
+ </body>
+</html>
